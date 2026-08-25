@@ -1,0 +1,213 @@
+{
+  "contract": {
+    "abi_sha256": "312599ac1552685d64a803ae2010c41e61605b1a4f4dfd40a40bb462cf5125e8",
+    "address": "0x9e45FAf4f7B0C42756868A05FB6A3ca2f37d6299",
+    "deployed_source_sha256_normalized": "75489b79d4177b372950b817f9e9baf27d279af48d9b6998693de903efa02734",
+    "deployment_tx": "0x472199461ca979e61e98a97ef6c078df82501608b693f2a2232a6e86c13c3c06",
+    "execution_result": "SUCCESS",
+    "explorer_base": "https://genlayer-explorer.vercel.app",
+    "name": "CareLabelGuide",
+    "schema_method_count": 13,
+    "schema_readback": true,
+    "source_exact_after_line_ending_normalization": true,
+    "source_sha256": "75489b79d4177b372950b817f9e9baf27d279af48d9b6998693de903efa02734",
+    "status": "FINALIZED"
+  },
+  "network": {
+    "chain_id": 61999,
+    "explorer": "https://genlayer-explorer.vercel.app",
+    "initial_validators": 5,
+    "name": "studionet",
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6",
+  "schema": "genlayer-intelligent-contract-deployment/v2",
+  "smoke": {
+    "bound_readback": true,
+    "cycle_number": 1,
+    "item_id": "0x79f684a276f792b1bdf8e3232a6c79b1b7129362:ITEM-1",
+    "label_id": "0x90f2ea47dcc355776fdf0ee1e723c553ca59abc6:SHIRT-A",
+    "profile": {
+      "bleach": "SKIP",
+      "dry": "LINE",
+      "iron": "LOW",
+      "wash": "MACHINE_COLD"
+    },
+    "profile_sha256": "sha256:25e4be42585c78e0d7e715bf2e43645d237f44d795bbd47c90123246929888d0",
+    "status": "COMPLETE",
+    "type": "semantic_label_compiler_feeding_repeatable_stage_automaton"
+  },
+  "transactions": {
+    "compile_label": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x44fd58dc0d6a67d7ec9921b30e9502dafcf1449308d186bfe521a71f6bef2290",
+      "validator_votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "deploy": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x472199461ca979e61e98a97ef6c078df82501608b693f2a2232a6e86c13c3c06",
+      "validator_votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "record_bleach": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0xf0b0e010b509e56016380c88eaa0cdaa35ee18d391a6e83315ebe9167f43f07b",
+      "validator_votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "IDLE"
+      ]
+    },
+    "record_dry": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0xe136eedfa98db1f2fb1a60c7ce359efc416ddf9580291b3b028060b46b70bf77",
+      "validator_votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "record_iron": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x90f1c9a9abcf77a1a2ccd7195b30b55ddf71c72dac6460f88adbdd9f734d6758",
+      "validator_votes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "record_wash": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0xeb23752115c3649563365ec46377963ea85c200c08f50d94789cba2111918578",
+      "validator_votes": [
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "register_item": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x35cb25160ada2cafacc8558ce922ab14b9de878ea589c9c954568549af363b98",
+      "validator_votes": [
+        "IDLE",
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "AGREE"
+      ]
+    },
+    "register_label": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0xc7b602cad5fe93960ea609f54ac71c3cfae217af6117bf3fda948573fc32843b",
+      "validator_votes": [
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "IDLE",
+        "AGREE"
+      ]
+    },
+    "start_cycle": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": null,
+      "execution_succeeded": true,
+      "finalized": true,
+      "round": "0",
+      "status": "FINALIZED",
+      "tx_hash": "0x6c17b65dc9266d4a7b63685697961d92606694cb9c29de297e675545f3a688c9",
+      "validator_votes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ]
+    }
+  },
+  "verification": {
+    "all_executions_succeeded": true,
+    "all_transactions_finalized": true,
+    "bound_state_readback": true,
+    "local_direct_tests_passed": true,
+    "local_five_validator_test_passed": true,
+    "pinned_dependency_audit_no_known_vulnerabilities": true,
+    "schema_readback": true,
+    "source_readback_exact": true,
+    "wallet_isolation_overlap_count": 0
+  },
+  "verified_at": "2026-08-25T12:21:07Z",
+  "wallet": {
+    "dedicated_external_encrypted_keystores": true,
+    "deployer": "0x90F2ea47DcC355776Fdf0EE1e723c553CA59aBC6",
+    "other_owner_wallet_reused": false,
+    "owner": "paulinx2nd",
+    "private_material_in_repository": false,
+    "public_test_roles": {
+      "role_a": "0x79F684a276F792B1BDf8e3232a6C79B1B7129362",
+      "role_b": "0x960c97778Ee734ac6A8050bd677fC51b8bf33559",
+      "role_c": "0xB39c04eAC2C9E13280e76bCe7e6D59D3f1863dFA",
+      "role_d": "0x2CB78B535cA6068B1A97EdAB5A548F7FFA8037a5",
+      "role_e": "0xec23717414e254E2747757d5F477F6Cf4abc0A84"
+    },
+    "workspace_wallet_used": false
+  }
+}
